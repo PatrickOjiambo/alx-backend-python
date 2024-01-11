@@ -5,7 +5,7 @@ File to return floor for some decimal
 import math
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """
     Function to return floor for some decimal
     """
