@@ -1,2 +1,1 @@
-# alx-backend-python
-Python code for backend software Engineering at ALX
+Everything python backend ALX software engineering.
