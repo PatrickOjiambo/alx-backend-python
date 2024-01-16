@@ -11,6 +11,7 @@ async def async_generator() -> None:
     Write a coroutine called async_generator that takes no arguments.
     """
     for i in range(10):
-        await asyncio.sleep(1)
-        randomNumber: float = random.uniform(0,10)
+
+        randomNumber: float = random.uniform(0, 10)
         yield randomNumber
+        await asyncio.sleep(1)
